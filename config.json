@@ -5,6 +5,6 @@
     "jwt_secret_key" : "devkey",
     "database" : {
         "driver" : "postgres",
-        "url" : "host= port= user=postgres password= dbname= sslmode=disable"
+        "url" : "host=localhost port=5432 user=root password=secret dbname=auth-microservice sslmode=disable"
     }
 }
